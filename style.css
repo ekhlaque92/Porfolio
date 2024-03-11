@@ -328,13 +328,13 @@ span {
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .experience .experience-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .experience-column {
@@ -342,7 +342,7 @@ span {
 }
 
 .experience-column .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 0 1.5rem 2rem; 
 }
 
@@ -506,7 +506,7 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
-    width: 50%;
+    width: 70%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
