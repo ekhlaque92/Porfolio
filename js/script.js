@@ -25,7 +25,14 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
+
+            // active section for animate on scroll
+            sec.classList.add('show-animate');
         }
+        // if want to use animation that repeats on scroll use this 
+        else{
+            sec.classList.remove('show-animate');
+        } 
     });
 
     //sticky header
@@ -36,5 +43,13 @@ window.onscroll = () => {
     //remove toggle icon and navbarwhen click navbar links(scroll)
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
+
+    // animation footer on scroll
+    // let footer = document.querySelectorAll('footer');
+
+    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY > document.scrollingElement.
+    scrollHeight);
+    
+    
 
 }
