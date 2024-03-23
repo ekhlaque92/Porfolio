@@ -16,27 +16,6 @@ hireMe.addEventListener('click', function() {
     }
 });
 
-// // Get the contact form element
-// var contactForm = document.querySelector('.contact form');
-// var contactFormSubmitButton = document.getElementById('contactForm');
-
-// // Add a submit event listener to the form
-// contactForm.addEventListener('submit', function(event) {
-//     event.preventDefault(); // Prevent the default form submission behavior
-
-//     var fullName = document.querySelector('.contact form input[placeholder="Full Name"]').value;
-//     var email = document.querySelector('.contact form input[placeholder="Email Address"]').value;
-//     var mobileNumber = document.querySelector('.contact form input[placeholder="Mobile Number"]').value;
-//     var emailSubject = document.querySelector('.contact form input[placeholder="Email Subject"]').value;
-//     var message = document.querySelector('.contact form textarea').value;
-
-//     // Your logic to handle the form data, for example, sending it to a server using AJAX or fetch
-
-//     // Display a thank you message
-//     var isConfirmed = confirm("Thank you for reaching out, " + fullName + "! We have received your message.");
-//     contactForm.reset();
-    
-// });
 
 // Get the contact form element
 var contactForm = document.querySelector('.contact form');
