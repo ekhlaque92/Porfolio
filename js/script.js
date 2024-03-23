@@ -47,7 +47,7 @@ window.onscroll = () => {
     // animation footer on scroll
     // let footer = document.querySelectorAll('footer');
 
-    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY > document.scrollingElement.
+    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.
     scrollHeight);
     
 }
