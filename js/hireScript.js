@@ -32,7 +32,7 @@ contactForm.addEventListener('submit', function(event) {
     var message = document.querySelector('.contact form textarea').value;
 
     // Validate mobile number length
-    if (mobileNumber.length !== 10) {
+    if (mobileNumber.length !== 10 || isNaN(mobileNumber) ) {
         alert('Please enter a 10-digit mobile number');
         return;
     }
